@@ -1,0 +1,24 @@
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.category-item {
+  display: block;
+  padding: 8px 12px;
+  border: 1px solid #15803d;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.category-item:hover {
+  background: #e6f9ed;
+  color: #15803d;
+  cursor: pointer;
+}
+
+.category-item.active {
+  background: #15803d;
+  color: #fff;
+  font-weight: bold;
+}
